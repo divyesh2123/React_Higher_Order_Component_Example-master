@@ -7,6 +7,8 @@ const HOC = (WrappedComponenet, entity) => {
       term: "",
     };
 
+    
+
     //This is equal to useEffect with array means empty array
     componentDidMount() {
       const fetchData = async () => {
